@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #352f2f;
   padding: 15px 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -23,6 +23,7 @@ nav ul li {
   color: #333;
   cursor: pointer;
   transition: color 0.3s ease;
+  color:#f9f9f9;
 }
 nav ul li:hover{
   color: #007BFF;
@@ -60,7 +61,7 @@ nav ul li:hover{
 
 /* Container for the image */
 .about-me .image-content {
-  flex: 1;
+  flex: 0 0 300px;
   display: flex;
   justify-content: center;
 }
