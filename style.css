@@ -27,3 +27,58 @@ nav ul li {
 nav ul li:hover{
   color: #007BFF;
 }
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+  background-color: #f9f9f9;
+}
+/* Wrap text content */
+.about-me .text-content {
+  flex: 1;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+
+.about-me .text-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about-me .text-content h2 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.about-me .text-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Container for the image */
+.about-me .image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-me .image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;  /* Soft rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-me .image-content {
+    margin-top: 20px;
+  }
+}
